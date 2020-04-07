@@ -21,6 +21,6 @@ function createtime() {
 		snum = "0" + snum;
 	}
 	document.getElementById("timeDate").innerHTML = "The station has been running for " + dnum + " days ";
-	document.getElementById("times").innerHTML = hnum + " hours " + mnum + " minutes " + snum + " seconds";
+	document.getElementById("times").innerHTML = hnum + " hours " + mnum + " minutes " + snum + " seconds" + "\u2764";
 }
 setInterval("createtime()", 250);
